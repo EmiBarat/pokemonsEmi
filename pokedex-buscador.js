@@ -54,13 +54,13 @@ window.onload = function(){
         listaTiposPokemons = [];
         tiposPokemon.forEach(function(element){
             listaTiposPokemons.push(element);
-        })
+        });
 
         pPokemons.forEach(function(element){
-            if(pTipoPokemon[listaTiposPokemons]){
+            if(element.tipo[listaTiposPokemons]){
                 resultado.push(element);
-            }
-        })
+            };
+        });
 
         // let listaTiposPokemon = [];
         // for(let i = 0; i < tiposPokemon.length; i++){
@@ -78,7 +78,7 @@ window.onload = function(){
         })
 
         pPokemons.forEach(function(element){
-            if(pMovimientoPokemon[listaMov]){
+            if(element.movimientos[listaMov]){
                 resultado.push(element);
             }
         })
