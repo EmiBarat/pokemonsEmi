@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>Buscador de Pokemons</title>
+        <script src="pokedex-arrays.js"></script>
+        <script src="pokedex-buscador.js"></script>
+        <link rel="stylesheet" type="text/css" href="pokedex-class.css">
+    </head>
+
+    <body class="body">
+        <h2 class="titulo-top">Pokedex</h2>
+        <div class="nombre-pokemon">
+            <div class = "descrip">
+                Nombre 
+                
+            </div>
+            <div>
+                <input type="text" name="nombre-pokemon" id="txtNombre-buscador">
+            </div>
+        </div>
+        <div class="chk-mov-tipo">
+            <div class="marcoChkBox">
+                <div class="descrip">
+                    Tipo
+                </div>
+                <div class="chkBox">
+                    <div><input type="checkbox" name="tipo" value="electrico" id="chkElectrico">Electrico</div>
+                    <div><input type="checkbox" name="tipo" value="fantasma" id="chkFantasma">Fantasma</div>
+                    <div><input type="checkbox" name="tipo" value="veneno" id="chkVeneno">Veneno</div>
+                    <div><input type="checkbox" name="tipo" value="agua" id="chkAgua">Agua</div>
+                    <div><input type="checkbox" name="tipo" value="fuego" id="chkFuego">Fuego</div>
+                    <div><input type="checkbox" name="tipo" value="volador" id="chkVolador">Volador</div>
+    
+                </div>
+            </div>
+            <div class="marcoChkBox">
+                <div class="descrip">
+                    Movimiento
+                </div>
+                <div class="chkBox">
+                    <div><input type="checkbox" name="movimiento" value="tackle" id="chkTackle">Tackle</div>
+                    <div><input type="checkbox" name="movimiento" value="envenenar" id="chkEnvenenar">Envenenar</div>
+                    <div><input type="checkbox" name="movimiento" value="bomba de agua" id="chkBombaAgua">Bomba de agua</div>
+                    <div><input type="checkbox" name="movimiento" value="picar" id="chkPicar">Picar</div>
+                    <div><input type="checkbox" name="movimiento" value="rayo solar" id="chkRayoSolar">Rayo solar</div>
+                    <div><input type="checkbox" name="movimiento" value="llamarada" id="chkLlamarada">Llamarada</div>
+                    <div><input type="checkbox" name="movimiento" value="ataque aereo" id="chkAtaqueAereo">Ataque aereo</div>
+                    <div><input type="checkbox" name="movimiento" value="asustar" id="chkAsustar">Asustar</div>
+                    <div><input type="checkbox" name="movimiento" value="electrocutar" id="chkElectrocutar">Electrocutar</div>
+                </div>
+            </div>
+        </div>
+        <div class = "btn-buscar">
+            <input type="button" value="Buscar" id="btnBuscar" >
+        </div>
+        <div class = "tabla-resultados-busqueda">
+            <table  id="tablaPokemons">
+                <tr class="primeraFila">
+                    <td class="column">Avatar</td>
+                    <td class="column">Pokemon</td>
+                    <td class="column">Tipo</td>
+                    <td class="column">Movimiento</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
